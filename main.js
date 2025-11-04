@@ -85,6 +85,6 @@ cityInput.addEventListener("input", () => {
 });
 
 // Load default weather on page load
-window.addEventListener('load', () => {
+document.addEventListener('DOMContentLoaded', () => {
     getWeather("New York");
 });
